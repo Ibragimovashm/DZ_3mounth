@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* /////////////////////////////////////////// */
+
+.header {
+  width: 100%;
+  background-color: blue;
+}
+.menu {
+  width: 100%;
+  padding: 30px 0;
+}
+h1 {
+  color: white;
+  font-size: 45px;
+}
+.parent_li_menu {
+  display: flex;
+  gap: 25px;
+}
+.parent_li_menu li {
+  list-style: none;
+  margin-top: 15px;
+}
+.parent_li_menu a {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+/* /////////////////////////////////////////// */
+.main_info_inner {
+  margin: 50px auto;
+  width: 80%;
+  /*background-color: aqua;*/
+  display: flex;
+  justify-content: space-between;
+}
+.block {
+  width: 900px;
+  margin: 0 auto;
+  border: 3px solid black;
+  position: relative;
+  padding: 50px 0;
+}
+h3 {
+  font-size: 25px;
+}
+.span {
+  font-size: 60px;
+  position: absolute;
+  left: 10px;
+  top: 80px;
+}
+.p_body {
+  font-size: 20px;
+  font-weight: 800;
+}
+.img_peek {
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.drow {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 5px auto;
+}
+.block_info {
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+}
+.btn-prev {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  color: black;
+  border: 0px;
+  border-radius: 50%;
+}
+.btn-next {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  color: black;
+  border: 0px;
+  border-radius: 50%;
+}
+/* /////////////////////////////////////////// */
+
+footer {
+  width: 100%;
+  background-color: black;
+}
+.footer_inner_1 {
+  padding: 30px 0;
+}
+h6 {
+  font-weight: 600;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.parent_li_footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_li_footer > li {
+  color: white;
+  list-style: none;
+  font-weight: 500;
+}
+.footer_inner_2 {
+  height: 400px;
+}
+.parent_for_down_li_parent {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.parent_for_down_li {
+  width: 220px;
+  /* background-color: aqua; */
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent_li_footer_down li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.div_line {
+  height: 60%;
+  width: 1px;
+  background-color: white;
+}
